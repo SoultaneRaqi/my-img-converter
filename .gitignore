@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+
+# Ignore images but keep folders
+images-to-convert/*
+!images-to-convert/.gitkeep
+
+converted-images/*
+!converted-images/.gitkeep
